@@ -2,7 +2,7 @@ function Footer() {
     return (
         <footer className="app-footer">
             <div className="app-footer__inner">
-                <span className="app-footer__copy">
+                <span className="app-footer__copy" style={{ color: "white" }}>
                     © {new Date().getFullYear()} Danial Amir Jalali
                 </span>
 
